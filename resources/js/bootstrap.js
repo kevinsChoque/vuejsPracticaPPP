@@ -11,7 +11,7 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
-    require('admin-lte');
+    require('admin-lte');//se instalo y se agrego esto para adminlte3
 } catch (e) {}
 
 /**

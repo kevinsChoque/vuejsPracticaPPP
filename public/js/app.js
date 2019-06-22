@@ -49253,7 +49253,8 @@ try {
 
   __webpack_require__(/*! bootstrap */ "./node_modules/bootstrap/dist/js/bootstrap.js");
 
-  __webpack_require__(/*! admin-lte */ "./node_modules/admin-lte/dist/js/adminlte.min.js");
+  __webpack_require__(/*! admin-lte */ "./node_modules/admin-lte/dist/js/adminlte.min.js"); //se instalo y se agrego esto para adminlte3
+
 } catch (e) {}
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
