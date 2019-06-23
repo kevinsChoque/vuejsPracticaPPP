@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('index');
 });
+
+Route::get('{path}', "IndexController@index")->where('path','([A-z\d-\/_.]+)?');
