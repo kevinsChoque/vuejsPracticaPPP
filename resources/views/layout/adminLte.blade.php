@@ -67,6 +67,12 @@
                         <p>EJERCICIO TRA.LIMA</p>
                     </router-link>
                 </li>
+                <li class="nav-item">
+                    <router-link to="/ejercicioLima2" class="nav-link">
+                        <i class="fas fa-tachometer-alt nav-icon blue"></i>
+                        <p>EJERCICIO TRA.LIMA2</p>
+                    </router-link>
+                </li>
             <li class="nav-item has-treeview ">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-cog green"></i>
