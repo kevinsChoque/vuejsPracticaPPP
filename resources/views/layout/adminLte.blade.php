@@ -1,26 +1,4 @@
-{{-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="{{ asset('css/app.css') }}" type="text/css" rel="stylesheet" />
-        <meta name="csrf-token" value="{{ csrf_token() }}" />
-</head>
-<body>
-    <div id="app">
-        <example-component></example-component>
-    </div>
-    <script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
-</body>
-</html> --}}
-
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -84,10 +62,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                 <li class="nav-item">
-                    <a to="/EjercicioLima" class="nav-link">
+                    <router-link to="/ejercicioLima" class="nav-link">
                         <i class="fas fa-tachometer-alt nav-icon blue"></i>
-                        <p>Ejercicio Lima</p>
-                    </a>
+                        <p>EJERCICIO TRA.LIMA</p>
+                    </router-link>
                 </li>
             <li class="nav-item has-treeview ">
                 <a href="#" class="nav-link">
@@ -147,7 +125,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <div class="content">
       <div class="container-fluid">
         
-        {{-- <router-view></router-view> --}}
+        <router-view></router-view>
+        {{-- @yield('content') --}}
         {{-- <vue-progress-bar></vue-progress-bar> --}}
         <!-- /.row -->
       </div><!-- /.container-fluid -->
